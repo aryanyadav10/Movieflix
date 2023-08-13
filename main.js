@@ -1,3 +1,4 @@
+const key = 'a87c3ec798mshe4e8c8f83a732e3p12548fjsn8ac8b742a32b'
 const form  = document.querySelector('.form');
 const input = document.querySelector('#input');
 const row = document.querySelector('.row');
@@ -12,7 +13,7 @@ async function call(v){
     const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': 'a87c3ec798mshe4e8c8f83a732e3p12548fjsn8ac8b742a32b',
+        'X-RapidAPI-Key': `${key}`,
         'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
     }
     };
